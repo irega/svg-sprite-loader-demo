@@ -1,0 +1,19 @@
+$bg-color: yellow;
+$border-color: red;
+
+.app {
+  font-family: helvetica, arial, sans-serif;
+  padding: 2em;
+  border: 5px solid $border-color;
+
+  p {
+    background-color: $bg-color;
+  }
+
+  .sprite {
+    background-image: url('~@assets/img/facebook.svg');
+    display: block;
+    width: 80px;
+    height: 50px;
+  }
+}
